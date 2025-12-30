@@ -18,12 +18,12 @@ A. PDFs to Images (Optional- If pdfs are present)
 
 Directory -> .PDFs
 
-python3 nv_ocr/pdf_to_imgs.py /path/to/inputdir --output /path/to/outputdir
+python3 ocr/pdf_to_imgs.py /path/to/inputdir --output /path/to/outputdir
 
 B. Images to OCR 
 
 
-python3 nv_ocr/ocr.py /path/to/inputdir --output /path/to/outputdir --port 8000 --num_thread
+python3 ocr/ocr.py /path/to/inputdir --output /path/to/outputdir --port 8000 --num_thread
 
 
 
