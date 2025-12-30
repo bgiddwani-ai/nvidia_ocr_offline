@@ -26,4 +26,9 @@ B. Images to OCR
 python3 nv_ocr/ocr.py /path/to/inputdir --output /path/to/outputdir --port 8000 --num_thread
 
 
+Credits:
+dots.ocr
+https://github.com/rednote-hilab/dots.ocr
+
+
 
