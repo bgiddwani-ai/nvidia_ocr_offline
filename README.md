@@ -1,7 +1,7 @@
 
 ## Deploy Server
 
-docker run --gpus device=0 -it --ipc=host -p 8000:8000 bgiddwaniai/nv-ocr:1.0.0-app
+docker run --gpus device=0 -it --ipc=host -p 8000:8000 <container>
 
 
 ## Installation
