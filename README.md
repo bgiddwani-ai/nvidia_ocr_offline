@@ -1,7 +1,7 @@
 
 ## Deploy Server
 
-docker run --gpus device=0 -it --ipc=host -p 8000:8000 <container>
+docker run --gpus device=0 -it --ipc=host -p 8000:8000 "container"
 
 
 ## Installation
