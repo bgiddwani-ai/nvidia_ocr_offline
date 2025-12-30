@@ -6,12 +6,12 @@ def parse_requirements(filename):
         return f.read().splitlines()
         
 setup(
-    name='nv_ocr',  
+    name='dots_ocr',  
     version='1.0', 
     packages=find_packages(),  
     include_package_data=True,  
     install_requires=parse_requirements('requirements.txt'),  
-    description='nv.ocr: Multilingual Document Layout Parsing in one Vision-Language Model',
+    description='dots.ocr: Multilingual Document Layout Parsing in one Vision-Language Model',
     url="https://github.com/rednote-hilab/dots.ocr",
     python_requires=">=3.10",
 )
